@@ -1,0 +1,61 @@
+* {
+	box-sizing: content-box;
+}
+.container {
+	display: flex;
+	min-height: 400px;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+}
+#chore-wheel {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto Slab', sans-serif;
+}
+#kitchen {
+	background-color: #91A6FF;
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid blue;*/
+
+}
+#bath {
+	background-color: #FF88DC;
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid green;*/
+	/*flex: 0 0 50%;*/
+/*	width: 50%;*/
+}
+#floors {
+	background-color: #FAFF7F;
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid purple;*/
+	/*flex: 0 0 50%;*/
+/*	width: 50%;*/
+}
+#rubbish {
+	background-color: #FF5154;
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid yellow;*/
+	/*flex: 0 0 50%;*/
+/*	width: 50%;*/
+}
+
+.bigger {
+	font-size: 18px;
+	margin-bottom: 0;
+	font-style: italic;
+}
