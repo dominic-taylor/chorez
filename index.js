@@ -1,6 +1,10 @@
 function getWeekNumber(){
-	var weekOfMonth = Math.ceil(new Date().getDate() / 7)
-	return weekOfMonth;
+	var now = new Date();
+   	var start = new Date(now.getFullYear(), 0, 0);
+  	var diff = now - start;
+    	var oneWeek = 1000 * 60 * 60 * 24 * 7;
+    	var week = Math.floor(diff / oneWeek); 
+	return (week % 4) +1;
 }
 
 function setChores(){
